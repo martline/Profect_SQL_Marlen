@@ -12,7 +12,8 @@ Part 4: Starting with Data
 Part 5: QA of data
 Part 6: Conclude the results
 ## Results
-(fill in what you discovered this data could tell you and how you used the data to answer those questions)
+After data analyses were performed, I gained many insights on the performance of the website, such as number of sales per country, impact of the of the revenue generated from each city.
+
 
 ## Challenges 
 Missing a lot of data and not having access to a full dataset was definetely a challenge.
