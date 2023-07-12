@@ -14,21 +14,23 @@ Below, provide the SQL queries you used to clean your data.
 
 1) 
 -- Had to do extra CAST to have decimal points in the result
+```SQL
 SELECT CAST(CAST(unit_price AS NUMERIC)/1000000 AS NUMERIC(5, 2)) AS unit_price
 FROM analytics
 
 SELECT CAST(CAST(productprice AS NUMERIC)/1000000 AS NUMERIC(5, 2)) AS productprice
 FROM all_sessions
-
-2) 
+```
+2)```SQL 
 SELECT time/60/60 as time_hrs, timeonsite/60 as timeonsite_minutes, TO_DATE(CAST(date AS TEXT), 'YYYYMMDD')
 FROM all_sessions
-
-3)
+```
+3)```SQL
 SELECT CAST(timeonsite AS NUMERIC)/60 as timeonsite_minutes, TO_DATE(CAST(date AS TEXT), 'YYYYMMDD')
 FROM analytics
-
-4)
+```
+4)```SQL
 SELECT *
 FROM analytics
 WHERE userid IS NOT NULL
+```
