@@ -12,7 +12,7 @@ Part 4: Starting with Data
 Part 5: QA of data
 Part 6: Conclude the results
 ## Results
-After data analyses were performed, I gained many insights on the performance of the website, such as number of sales per country, impact of the of the revenue generated from each city.
+After data analyses were performed, I gained many insights on the performance of the website, such as number of sales per country, impact of the of the revenue generated from each city etc.
 
 
 ## Challenges 
